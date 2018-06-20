@@ -19,7 +19,7 @@ def first_word_capitalized_and_ends_with_punctuation?(text)
   if text.match(/[!.,?]\z/) == nil
     return false
   else
-    if text.match(/\A[A-Z]/) == nik
+    if text.match(/\A[A-Z]/) == nil
       return false
     else
       return true
